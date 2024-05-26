@@ -1,0 +1,45 @@
+.component-button {
+  display: inline-flex;
+  width: 20%;
+  flex: 1 0 auto;
+}
+
+.component-button.wide {
+  width: 40%;
+}
+
+.component-button button {
+  position: relative;
+  background-color: #e0e0e0;
+  border: 0;
+  font-size: 1.5rem;
+  margin: 0.5vh;
+  flex: 1 0 auto;
+  padding: 0;
+  border-radius: 2vh;
+  transition: all 0.3s;
+  box-shadow: 0 0.7em 1em -0.5em black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-button button:hover {
+  opacity: 0.9;
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.component-button button:active {
+  opacity: 0.8;
+  scale: 0.95;
+}
+
+.component-button:last-child button {
+  margin-right: 0;
+}
+
+.component-button.orange button {
+  background-color: #f5923e;
+  color: white;
+}
